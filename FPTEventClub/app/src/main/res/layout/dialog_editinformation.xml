@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:id="@+id/fullname_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/tv_regis">
+
+        <EditText
+            android:id="@+id/txt_edit_lastname"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Họ"
+            android:inputType="textCapWords"
+            android:text="Nguyễn"/>
+
+        <EditText
+            android:id="@+id/txt_edit_middlename"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên đệm"
+            android:text="Văn"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/txt_edit_firstname"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên"
+            android:inputType="textCapWords"
+            android:text="Mạnh"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/student_code_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname_group">
+
+        <EditText
+            android:id="@+id/txt_edit_student_code"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="MSSV"
+            android:inputType="textCapCharacters"
+            android:text="SE61271"/>
+
+        <EditText
+            android:id="@+id/txt_edit_schoolyear"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="K"
+            android:inputType="number"
+            android:text="8"/>
+        <Spinner
+            android:id="@+id/spinner_edit_department"
+            style="@style/SpinnerFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Ban"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_code_group">
+
+        <EditText
+            android:id="@+id/txt_edit_phone"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:numeric="integer"
+            android:text="01259251208"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_group"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_edit_email"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text="manhnv1208@gmail.com"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/note_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_group"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txt_edit_birthdate"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh"
+            />
+        <EditText
+            android:id="@+id/txt_edit_address"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ"
+            android:text="Tân Bình"/>
+        <EditText
+            android:id="@+id/txt_edit_hometown"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quê quán"
+            android:text="Ninh Thuận"/>
+        <EditText
+            android:id="@+id/txt_edit_note"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ghi chú" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_edit_Save"
+        style="@style/ButtonFEVMSTheme"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:textSize="25dp"
+        android:imeOptions="actionSend|flagNoEnterAction"/>
+
+
+</RelativeLayout>

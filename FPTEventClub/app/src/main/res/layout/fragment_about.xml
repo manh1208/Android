@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FEVMSTheme"
+            android:text="FEV Management System"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/lbl_about_title"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_about_title"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Phiên bản: v1.0"
+        android:textSize="15dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Website: http://www.fpteventclub.xyz"
+            android:textSize="15dp"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingTop="20dp"
+        android:text="Trong phiên bản này: quản lý member, cho phép thành viên xem thông tin của nhau. Cho phép Chủ nhiệm và Phó chủ nhiệm thêm xóa sửa thành viên. "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:text="Dự kiến phiên bản tới: Quản lý tài chính của clb: Quản lý tiền quỹ (quỹ hàng tháng, quỹ từ bên ngoài)"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:text="Developed by ManhNV"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
