@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp">
+
+
+    <LinearLayout
+        android:id="@+id/fullname_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_lastname"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Họ"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/txt_middlename"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên đệm"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/txt_firstname"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/student_code_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname_group">
+
+        <EditText
+            android:id="@+id/txt_student_code"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="MSSV"
+            android:inputType="textCapCharacters" />
+
+        <EditText
+            android:id="@+id/txt_schoolyear"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="K"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_code_group">
+
+        <EditText
+            android:id="@+id/txt_phone"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:numeric="integer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_group"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_email"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/txt_password"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Mật khẩu"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/txt_confirmpassword"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/note_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_group"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txt_add_birthdate"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh" />
+        <EditText
+            android:id="@+id/txt_note"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ghi chú" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Save"
+        style="@style/ButtonFEVMSTheme"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

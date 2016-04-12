@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewFEVMSTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/fevmstheme_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/fevmstheme_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonFEVMSTheme" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/fevmstheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonFEVMSTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/fevmstheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerFEVMSTheme" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/fevmstheme_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/fevmstheme_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarFEVMSTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/fevmstheme_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fevmstheme_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarFEVMSTheme" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/fevmstheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fevmstheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/fevmstheme_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarFEVMSTheme" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/fevmstheme_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fevmstheme_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigFEVMSTheme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/fevmstheme_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fevmstheme_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallFEVMSTheme" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/fevmstheme_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fevmstheme_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleFEVMSTheme" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/fevmstheme_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

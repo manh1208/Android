@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="FEVMSTheme" parent="@style/_FEVMSTheme"/>
+
+  <style name="_FEVMSTheme" parent="Theme.AppCompat.Light">
+
+    <item name="android:editTextBackground">@drawable/fevmstheme_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#997c0000</item>
+    <item name="android:textSelectHandleLeft">@drawable/fevmstheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/fevmstheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/fevmstheme_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewFEVMSTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/fevmstheme_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/fevmstheme_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonFEVMSTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonFEVMSTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerFEVMSTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarFEVMSTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarFEVMSTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarFEVMSTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigFEVMSTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallFEVMSTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleFEVMSTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/fevmstheme_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/fevmstheme_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fevmstheme_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>
