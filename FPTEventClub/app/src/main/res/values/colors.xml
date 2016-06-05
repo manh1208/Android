@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7c0000</color>
+    <color name="colorPrimaryDark">#5c1212</color>
+    <color name="colorAccent">#7c0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorRed1">#d75151</color>
+    <color name="colorRed2">#a93a3a</color>
+    <color name="colorRed3">#7c0000</color>
+    <color name="gray">#e6e6e6</color>
+    <color name="green">#5bc236</color>
+    <color name="red">#dd4b39</color>
+    <color name="yellow">#ccc230</color>
+    <color name="fevmstheme_color">#7c0000</color>
+    yellow
+</resources>

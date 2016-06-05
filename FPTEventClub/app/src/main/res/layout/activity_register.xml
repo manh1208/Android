@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/tv_regis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"/>
+
+    <LinearLayout
+        android:id="@+id/fullname_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/tv_regis">
+
+        <EditText
+            android:id="@+id/txt_regis_lastname"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Họ"
+            android:inputType="textCapWords"
+            />
+
+        <EditText
+            android:id="@+id/txt_regis_middlename"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên đệm"
+
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/txt_regis_firstname"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên"
+            android:inputType="textCapWords"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/student_code_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname_group">
+
+        <EditText
+            android:id="@+id/txt_regis_student_code"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="MSSV"
+            android:inputType="textCapCharacters"
+            />
+
+        <EditText
+            android:id="@+id/txt_regis_schoolyear"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="K"
+            android:inputType="number"
+            />
+        <!--<Spinner-->
+            <!--android:id="@+id/spinner_regis_department"-->
+            <!--style="@style/SpinnerFEVMSTheme"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:hint="Ban"-->
+            <!--android:inputType="number" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_code_group">
+
+        <EditText
+            android:id="@+id/txt_regis_phone"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:numeric="integer"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_group"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_regis_email"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+           />
+        <EditText
+            android:id="@+id/txt_regis_password"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/txt_regis_confirmpassword"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/note_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_group"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txt_regis_birthdate"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh"
+            />
+        <EditText
+            android:id="@+id/txt_regis_address"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ"
+           />
+        <EditText
+            android:id="@+id/txt_regis_hometown"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quê quán"
+           />
+        <EditText
+            android:id="@+id/txt_regis_note"
+            style="@style/EditTextFEVMSTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ghi chú" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_regis_Save"
+        style="@style/ButtonFEVMSTheme"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:textSize="25dp"
+        android:imeOptions="actionSend|flagNoEnterAction"/>
+
+
+</RelativeLayout>
